@@ -1,0 +1,1167 @@
+upload=true&script=true&cardinfo=
+!!################################
+!!ALSA Information Script v 0.4.65
+!!################################
+
+!!Script ran on: Fri Oct  9 03:31:08 UTC 2020
+
+
+!!Linux Distribution
+!!------------------
+
+Debian GNU/Linux bullseye/sid \n \l PRETTY_NAME="Debian GNU/Linux bullseye/sid" NAME="Debian GNU/Linux" ID=debian HOME_URL="https://www.debian.org/" SUPPORT_URL="https://www.debian.org/support" BUG_REPORT_URL="https://bugs.debian.org/"
+
+
+!!DMI Information
+!!---------------
+
+Manufacturer:      Google
+Product Name:      Cave
+Product Version:   1.0
+Firmware Version:  MrChromebox-4.12
+Board Vendor:      Google
+Board Name:        Cave
+
+
+!!ACPI Device Status Information
+!!---------------
+
+/sys/bus/acpi/devices/10508825:00/status 	 15
+/sys/bus/acpi/devices/ACPI0003:00/status 	 15
+/sys/bus/acpi/devices/ACPI0008:00/status 	 15
+/sys/bus/acpi/devices/BOOT0000:00/status 	 11
+/sys/bus/acpi/devices/ELAN0000:00/status 	 15
+/sys/bus/acpi/devices/ELAN0001:00/status 	 15
+/sys/bus/acpi/devices/GOOG0002:00/status 	 15
+/sys/bus/acpi/devices/GOOG0003:00/status 	 11
+/sys/bus/acpi/devices/GOOG0004:00/status 	 11
+/sys/bus/acpi/devices/GOOG000A:00/status 	 15
+/sys/bus/acpi/devices/INT3400:00/status 	 15
+/sys/bus/acpi/devices/INT3403:00/status 	 15
+/sys/bus/acpi/devices/INT3403:01/status 	 15
+/sys/bus/acpi/devices/INT3403:02/status 	 15
+/sys/bus/acpi/devices/INT3403:03/status 	 15
+/sys/bus/acpi/devices/INT3403:04/status 	 15
+/sys/bus/acpi/devices/INT344B:00/status 	 15
+/sys/bus/acpi/devices/MX98357A:00/status 	 15
+/sys/bus/acpi/devices/PNP0103:00/status 	 15
+/sys/bus/acpi/devices/PNP0C02:02/status 	 15
+/sys/bus/acpi/devices/PNP0C02:03/status 	 15
+/sys/bus/acpi/devices/PNP0C0A:00/status 	 31
+/sys/bus/acpi/devices/PNP0C0F:00/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:01/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:02/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:03/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:04/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:05/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:06/status 	 9
+/sys/bus/acpi/devices/PNP0C0F:07/status 	 9
+/sys/bus/acpi/devices/PNP0C31:00/status 	 15
+/sys/bus/acpi/devices/device:3f/status 	 15
+
+
+!!Kernel Information
+!!------------------
+
+Kernel release:    5.8.0-2-amd64
+Operating System:  GNU/Linux
+Architecture:      x86_64
+Processor:         unknown
+SMP Enabled:       Yes
+
+
+!!ALSA Version
+!!------------
+
+Driver version:     k5.8.0-2-amd64
+Library version:    1.2.3.2
+Utilities version:  1.2.3
+
+
+!!Loaded ALSA modules
+!!-------------------
+
+snd_skl_nau88l25_max98357a
+
+
+!!Sound Servers on this system
+!!----------------------------
+
+Pulseaudio:
+      Installed - Yes (/usr/bin/pulseaudio)
+      Running - Yes
+
+
+!!Soundcards recognised by ALSA
+!!-----------------------------
+
+ 0 [sklnau8825max  ]: sklnau8825max - sklnau8825max
+                      Google-Cave-1.0
+
+
+!!PCI Soundcards installed in the system
+!!--------------------------------------
+
+00:1f.3 Multimedia audio controller [0401]: Intel Corporation Sunrise Point-LP HD Audio [8086:9d70] (rev 21)
+	DeviceName: Multimedia audio controller
+
+
+!!Modprobe options (Sound related)
+!!--------------------------------
+
+snd_pcsp: index=-2
+snd_usb_audio: index=-2
+snd_atiixp_modem: index=-2
+snd_intel8x0m: index=-2
+snd_via82xx_modem: index=-2
+
+
+!!Loaded sound module options
+!!---------------------------
+
+!!Module: snd_skl_nau88l25_max98357a
+	* : 
+
+
+!!ALSA Device nodes
+!!-----------------
+
+crw-rw----+ 1 root audio 116,  9 Oct  8 23:23 /dev/snd/controlC0
+crw-rw----+ 1 root audio 116,  2 Oct  8 23:23 /dev/snd/pcmC0D0p
+crw-rw----+ 1 root audio 116,  3 Oct  8 23:23 /dev/snd/pcmC0D1c
+crw-rw----+ 1 root audio 116,  4 Oct  8 23:23 /dev/snd/pcmC0D2c
+crw-rw----+ 1 root audio 116,  5 Oct  8 23:23 /dev/snd/pcmC0D3c
+crw-rw----+ 1 root audio 116,  6 Oct  8 23:23 /dev/snd/pcmC0D4p
+crw-rw----+ 1 root audio 116,  7 Oct  8 23:23 /dev/snd/pcmC0D5p
+crw-rw----+ 1 root audio 116,  8 Oct  8 23:23 /dev/snd/pcmC0D6p
+crw-rw----+ 1 root audio 116,  1 Oct  8 23:23 /dev/snd/seq
+crw-rw----+ 1 root audio 116, 33 Oct  8 23:23 /dev/snd/timer
+
+/dev/snd/by-path:
+total 0
+drwxr-xr-x 2 root root  60 Oct  8 23:23 .
+drwxr-xr-x 3 root root 260 Oct  8 23:23 ..
+lrwxrwxrwx 1 root root  12 Oct  8 23:23 platform-skl_n88l25_m98357a -> ../controlC0
+
+
+!!Aplay/Arecord output
+!!--------------------
+
+APLAY
+
+**** List of PLAYBACK Hardware Devices ****
+card 0: sklnau8825max [sklnau8825max], device 0: Audio (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825max [sklnau8825max], device 4: Hdmi1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825max [sklnau8825max], device 5: Hdmi2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825max [sklnau8825max], device 6: Hdmi3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+ARECORD
+
+**** List of CAPTURE Hardware Devices ****
+card 0: sklnau8825max [sklnau8825max], device 1: Audio Record (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825max [sklnau8825max], device 2: Wake on Voice (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825max [sklnau8825max], device 3: dmiccap (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+!!Amixer output
+!!-------------
+
+!!-------Mixer controls for card sklnau8825max
+
+Card hw:0 'sklnau8825max'/'Google-Cave-1.0'
+  Mixer name	: ''
+  Components	: ''
+  Controls      : 47
+  Simple ctrls  : 40
+Simple mixer control 'Headphone',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 63
+  Front Left: 63 [100%] [0.00dB]
+  Front Right: 63 [100%] [0.00dB]
+Simple mixer control 'Headphone Bypass',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 15
+  Front Left: 0 [0%] [-99999.99dB]
+  Front Right: 0 [0%] [-99999.99dB]
+Simple mixer control 'Headphone Crosstalk',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 255
+  Front Left: 0 [0%] [-99999.99dB]
+  Front Right: 0 [0%] [-99999.99dB]
+Simple mixer control 'Headphone Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'Frontend PGA',0
+  Capabilities: volume volume-joined
+  Playback channels: Mono
+  Capture channels: Mono
+  Limits: 0 - 37
+  Mono: 0 [0%] [-1.00dB]
+Simple mixer control 'Mic',0
+  Capabilities: volume volume-joined
+  Playback channels: Mono
+  Capture channels: Mono
+  Limits: 0 - 255
+  Mono: 255 [100%] [24.00dB]
+Simple mixer control 'ADC Decimation Rate',0
+  Capabilities: enum
+  Items: '32' '64' '128' '256'
+  Item0: '64'
+Simple mixer control 'BIQ Path Select',0
+  Capabilities: enum
+  Items: 'ADC' 'DAC'
+  Item0: 'ADC'
+Simple mixer control 'DAC Oversampling Rate',0
+  Capabilities: enum
+  Items: '64' '256' '128' '' '32'
+  Item0: '128'
+Simple mixer control 'DACL Mux',0
+  Capabilities: enum
+  Items: 'DACL' 'DACR'
+  Item0: 'DACL'
+Simple mixer control 'DACR Mux',0
+  Capabilities: enum
+  Items: 'DACL' 'DACR'
+  Item0: 'DACR'
+Simple mixer control 'Headset Mic',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'Pin5-Port0 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 2'
+Simple mixer control 'Pin5-Port1 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 3'
+Simple mixer control 'Pin5-Port2 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 4'
+Simple mixer control 'Pin6-Port0 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 2'
+Simple mixer control 'Pin6-Port1 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 3'
+Simple mixer control 'Pin6-Port2 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 4'
+Simple mixer control 'Pin7-Port0 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 2'
+Simple mixer control 'Pin7-Port1 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 3'
+Simple mixer control 'Pin7-Port2 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'cvt 4'
+Simple mixer control 'Spk',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'codec0_out mo codec0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec0_out mo dmic01_hifi_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec0_out mo media0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'codec1_out mo codec0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec1_out mo dmic01_hifi_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec1_out mo media0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif5-0 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif5-1 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif5-2 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif6-0 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif6-1 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif6-2 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif7-0 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif7-1 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif7-2 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'media0_out mo codec0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'media0_out mo dmic01_hifi_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'media0_out mo media0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+
+
+!!Alsactl output
+!!--------------
+
+--startcollapse--
+state.sklnau8825max {
+	control.1 {
+		iface MIXER
+		name 'Mic Volume'
+		value 255
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 2400
+			dbvalue.0 2400
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Headphone Bypass Volume'
+		value.0 0
+		value.1 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 15'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 -9999999
+			dbvalue.1 -9999999
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Headphone Volume'
+		value.0 63
+		value.1 63
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 63'
+			dbmin -5400
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'Frontend PGA Volume'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 37'
+			dbmin -100
+			dbmax 3600
+			dbvalue.0 -100
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Headphone Crosstalk Volume'
+		value.0 0
+		value.1 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 2400
+			dbvalue.0 -9999999
+			dbvalue.1 -9999999
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'ADC Decimation Rate'
+		value '64'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 '32'
+			item.1 '64'
+			item.2 '128'
+			item.3 '256'
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'DAC Oversampling Rate'
+		value '128'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 '64'
+			item.1 '256'
+			item.2 '128'
+			item.3 ''
+			item.4 '32'
+		}
+	}
+	control.8 {
+		iface MIXER
+		name 'BIQ Path Select'
+		value ADC
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 ADC
+			item.1 DAC
+		}
+	}
+	control.9 {
+		iface MIXER
+		name 'BIQ Coefficients'
+		value '0000000000000000000000000000000000000000'
+		comment {
+			access 'read write'
+			type BYTES
+			count 20
+		}
+	}
+	control.10 {
+		iface MIXER
+		name 'media0_out mo media0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.11 {
+		iface MIXER
+		name 'media0_out mo codec0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.12 {
+		iface MIXER
+		name 'media0_out mo dmic01_hifi_in mi Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.13 {
+		iface MIXER
+		name 'codec0_out mo media0_in mi Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.14 {
+		iface MIXER
+		name 'codec0_out mo codec0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.15 {
+		iface MIXER
+		name 'codec0_out mo dmic01_hifi_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.16 {
+		iface MIXER
+		name 'codec1_out mo media0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.17 {
+		iface MIXER
+		name 'codec1_out mo codec0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.18 {
+		iface MIXER
+		name 'codec1_out mo dmic01_hifi_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.22 {
+		iface MIXER
+		name 'DACL Mux'
+		value DACL
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 DACL
+			item.1 DACR
+		}
+	}
+	control.23 {
+		iface MIXER
+		name 'DACR Mux'
+		value DACR
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 DACL
+			item.1 DACR
+		}
+	}
+	control.24 {
+		iface MIXER
+		name 'Pin5-Port0 Mux'
+		value 'cvt 2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.25 {
+		iface MIXER
+		name 'Pin5-Port1 Mux'
+		value 'cvt 3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.26 {
+		iface MIXER
+		name 'Pin5-Port2 Mux'
+		value 'cvt 4'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.27 {
+		iface MIXER
+		name 'Pin6-Port0 Mux'
+		value 'cvt 2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.28 {
+		iface MIXER
+		name 'Pin6-Port1 Mux'
+		value 'cvt 3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.29 {
+		iface MIXER
+		name 'Pin6-Port2 Mux'
+		value 'cvt 4'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.30 {
+		iface MIXER
+		name 'Pin7-Port0 Mux'
+		value 'cvt 2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.31 {
+		iface MIXER
+		name 'Pin7-Port1 Mux'
+		value 'cvt 3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.32 {
+		iface MIXER
+		name 'Pin7-Port2 Mux'
+		value 'cvt 4'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.33 {
+		iface MIXER
+		name 'Headphone Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.34 {
+		iface MIXER
+		name 'Headset Mic Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.35 {
+		iface MIXER
+		name 'Spk Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.36 {
+		iface PCM
+		device 4
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.37 {
+		iface PCM
+		device 5
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.38 {
+		iface PCM
+		device 6
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.39 {
+		iface MIXER
+		name 'hif5-0 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.40 {
+		iface MIXER
+		name 'hif5-1 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.41 {
+		iface MIXER
+		name 'hif5-2 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.42 {
+		iface MIXER
+		name 'hif6-0 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.43 {
+		iface MIXER
+		name 'hif6-1 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.44 {
+		iface MIXER
+		name 'hif6-2 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.45 {
+		iface MIXER
+		name 'hif7-0 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.46 {
+		iface MIXER
+		name 'hif7-1 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.47 {
+		iface MIXER
+		name 'hif7-2 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}
+--endcollapse--
+
+
+!!All Loaded Modules
+!!------------------
+
+ac
+acpi_als
+acpi_thermal_rel
+aes_generic
+aesni_intel
+af_alg
+algif_hash
+algif_skcipher
+ansi_cprng
+autofs4
+battery
+bluetooth
+bnep
+btbcm
+btintel
+btrtl
+btusb
+button
+ccm
+cec
+cfg80211
+cmac
+coretemp
+cqhci
+crc16
+crc32_pclmul
+crc32c_generic
+crc32c_intel
+crct10dif_common
+crct10dif_pclmul
+cros_kbd_led_backlight
+cryptd
+crypto_simd
+ctr
+drbg
+drm
+drm_kms_helper
+ecc
+ecdh_generic
+efi_pstore
+efivarfs
+efivars
+elan_i2c
+evdev
+ext4
+fat
+fuse
+ghash_clmulni_intel
+glue_helper
+i2c_algo_bit
+i2c_i801
+i2c_smbus
+i915
+iTCO_vendor_support
+iTCO_wdt
+idma64
+industrialio
+int3400_thermal
+int3403_thermal
+int340x_thermal_zone
+intel_cstate
+intel_lpss
+intel_lpss_pci
+intel_pch_thermal
+intel_pmc_bxt
+intel_powerclamp
+intel_rapl_common
+intel_rapl_msr
+intel_soc_dts_iosf
+intel_uncore
+intel_xhci_usb_role_switch
+ip_tables
+irqbypass
+iwlmvm
+iwlwifi
+jbd2
+jitterentropy_rng
+joydev
+kfifo_buf
+kvm
+kvm_intel
+libaes
+libarc4
+mac80211
+mbcache
+mc
+mmc_block
+mmc_core
+nls_ascii
+nls_cp437
+pcspkr
+processor_thermal_device
+rapl
+rfcomm
+rfkill
+rng_core
+roles
+sdhci
+sdhci_pci
+serio_raw
+snd
+snd_compress
+snd_hda_codec
+snd_hda_core
+snd_hda_ext_core
+snd_hrtimer
+snd_hwdep
+snd_intel_dspcfg
+snd_pcm
+snd_seq
+snd_seq_device
+snd_seq_dummy
+snd_skl_nau88l25_max98357a
+snd_soc_acpi
+snd_soc_acpi_intel_match
+snd_soc_core
+snd_soc_dmic
+snd_soc_hdac_hda
+snd_soc_hdac_hdmi
+snd_soc_max98357a
+snd_soc_nau8825
+snd_soc_skl
+snd_soc_skl_ssp_clk
+snd_soc_sst_dsp
+snd_soc_sst_ipc
+snd_timer
+soundcore
+tpm
+tpm_tis
+tpm_tis_core
+usb_common
+usbcore
+uvcvideo
+vfat
+video
+videobuf2_common
+videobuf2_memops
+videobuf2_v4l2
+videobuf2_vmalloc
+videodev
+watchdog
+x86_pkg_temp_thermal
+x_tables
+xhci_hcd
+xhci_pci
+
+
+!!ALSA/HDA dmesg
+!!--------------
+
+[    0.509317] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.509317] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.509317] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+--
+[    5.879626] uvcvideo: Found UVC 1.00 device USB2.0 HD UVC WebCam (13d3:5679)
+[    5.879819] snd_soc_skl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040100
+[    5.889845] uvcvideo 1-7:1.0: Entity type for entity Realtek Extended Controls Unit was not initialized!
+--
+[    5.890039] USB Video Class driver (1.1.1)
+[    5.919082] snd_soc_skl 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    5.974762] HDMI HDA Codec ehdaudio0D2: Max dais supported: 3
+[    5.995049] snd_soc_skl 0000:00:1f.3: firmware: direct-loading firmware 9d70-INTEL-SCRDMAX-0-tplg.bin
+[    5.995060] snd_soc_skl 0000:00:1f.3: ASoC: invalid manifest size 0
+[    5.995062] snd_soc_skl 0000:00:1f.3: ASoC: old version of manifest
+[    5.995419] snd_soc_skl 0000:00:1f.3: ASoC: Parent card not yet available, widget card binding deferred
+[    6.006703] snd_soc_skl 0000:00:1f.3: firmware: direct-loading firmware intel/dsp_fw_release.bin
+[    6.023972] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[    6.024287] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[    6.024595] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[    6.025257] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> System Pin mapping ok
+[    6.025845] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> System Pin mapping ok
+[    6.026185] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> Reference Pin mapping ok
+[    6.026524] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> DMIC Pin mapping ok
+[    6.027107] systemd[1]: Mounted /boot/efi.
+[    6.027111] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> HDMI1 Pin mapping ok
+[    6.027320] systemd[1]: Reached target Local File Systems.
+[    6.028482] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> HDMI2 Pin mapping ok
+[    6.028768] skl_n88l25_m98357a skl_n88l25_m98357a: snd-soc-dummy-dai <-> HDMI3 Pin mapping ok
+[    6.028776] skl_n88l25_m98357a skl_n88l25_m98357a: HiFi <-> SSP0 Pin mapping ok
+--
+[    6.029343] skl_n88l25_m98357a skl_n88l25_m98357a: ASoC: source widget Capture overwritten
+[    6.029877] input: sklnau8825max Headset Jack as /devices/platform/skl_n88l25_m98357a/sound/card0/input7
+[    6.029957] input: sklnau8825max HDMI/DP, pcm=4 Jack as /devices/platform/skl_n88l25_m98357a/sound/card0/input8
+[    6.030029] input: sklnau8825max HDMI/DP, pcm=5 Jack as /devices/platform/skl_n88l25_m98357a/sound/card0/input9
+[    6.030130] input: sklnau8825max HDMI/DP, pcm=6 Jack as /devices/platform/skl_n88l25_m98357a/sound/card0/input10
+[    6.031851] systemd[1]: Starting Set console font and keymap...
+--
+[    8.469540] fuse: init (API version 7.31)
+[    8.483453] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.483546] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.485458] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.485559] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.486310] snd_soc_skl 0000:00:1f.3: ipc FW reply: 6 FW Error Code: 3007
+[    8.486331] snd_soc_skl 0000:00:1f.3: ipc: set pipeline state failed, err: -22
+[    8.486335] snd_soc_skl 0000:00:1f.3: Failed to reset pipe ret=-22
+[    8.486452] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.486545] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.489061] snd_soc_skl 0000:00:1f.3: ipc FW reply: 6 FW Error Code: 3007
+[    8.489078] snd_soc_skl 0000:00:1f.3: ipc: set pipeline state failed, err: -22
+[    8.489081] snd_soc_skl 0000:00:1f.3: Failed to reset pipe ret=-22
+[    8.911107] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.911210] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.913169] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.913268] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.914104] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.914199] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.915805] snd_soc_skl 0000:00:1f.3: ipc FW reply: 6 FW Error Code: 3007
+[    8.915820] snd_soc_skl 0000:00:1f.3: ipc: set pipeline state failed, err: -22
+[    8.915825] snd_soc_skl 0000:00:1f.3: Failed to reset pipe ret=-22
+[    8.916459] snd_soc_skl 0000:00:1f.3: ipc FW reply: 6 FW Error Code: 3007
+[    8.916469] snd_soc_skl 0000:00:1f.3: ipc: set pipeline state failed, err: -22
+[    8.916473] snd_soc_skl 0000:00:1f.3: Failed to reset pipe ret=-22
+[    8.995152] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    8.995253] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.003225] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.003417] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.005195] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.005294] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.006166] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.006266] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.010170] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.011171] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.011273] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.012173] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[    9.037748] Bluetooth: RFCOMM TTY layer initialized
+--
+[   27.928052] systemd-xdg-autostart-generator[1096]: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.PrintNotifications-autostart.service, startup phases are not supported.
+[   28.098903] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   28.099086] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   28.100845] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   28.101013] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   28.101878] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   28.102002] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   28.102130] snd_soc_skl 0000:00:1f.3: ipc FW reply: 6 FW Error Code: 3007
+[   28.102177] snd_soc_skl 0000:00:1f.3: ipc: set pipeline state failed, err: -22
+[   28.102255] snd_soc_skl 0000:00:1f.3: Failed to reset pipe ret=-22
+[   28.102914] snd_soc_skl 0000:00:1f.3: ipc FW reply: 6 FW Error Code: 3007
+[   28.102963] snd_soc_skl 0000:00:1f.3: ipc: set pipeline state failed, err: -22
+[   28.103039] snd_soc_skl 0000:00:1f.3: Failed to reset pipe ret=-22
+
+
+!!Packages installed
+!!--------------------
+
+ii  alsa-topology-conf                    1.2.3-1                         all          ALSA topology configuration files
+ii  alsa-ucm-conf                         1.2.3-1                         all          ALSA Use Case Manager configuration files
+ii  alsa-utils                            1.2.3-1                         amd64        Utilities for configuring and using ALSA
+

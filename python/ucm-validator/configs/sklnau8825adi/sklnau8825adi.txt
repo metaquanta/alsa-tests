@@ -1,0 +1,1925 @@
+upload=true&script=true&cardinfo=
+!!################################
+!!ALSA Information Script v 0.4.65
+!!################################
+
+!!Script ran on: Fri Oct  9 04:19:41 UTC 2020
+
+
+!!Linux Distribution
+!!------------------
+
+Debian GNU/Linux bullseye/sid \n \l PRETTY_NAME="Debian GNU/Linux bullseye/sid" NAME="Debian GNU/Linux" ID=debian HOME_URL="https://www.debian.org/" SUPPORT_URL="https://www.debian.org/support" BUG_REPORT_URL="https://bugs.debian.org/"
+
+
+!!DMI Information
+!!---------------
+
+Manufacturer:      Google
+Product Name:      Chell
+Product Version:   1.0
+Firmware Version:  MrChromebox-4.12
+Board Vendor:      Google
+Board Name:        Chell
+
+
+!!ACPI Device Status Information
+!!---------------
+
+/sys/bus/acpi/devices/10508825:00/status 	 15
+/sys/bus/acpi/devices/ACPI0003:00/status 	 15
+/sys/bus/acpi/devices/BOOT0000:00/status 	 11
+/sys/bus/acpi/devices/ELAN0000:00/status 	 15
+/sys/bus/acpi/devices/GOOG0002:00/status 	 15
+/sys/bus/acpi/devices/GOOG0003:00/status 	 11
+/sys/bus/acpi/devices/GOOG0004:00/status 	 11
+/sys/bus/acpi/devices/GOOG000A:00/status 	 15
+/sys/bus/acpi/devices/INT3400:00/status 	 15
+/sys/bus/acpi/devices/INT3403:00/status 	 15
+/sys/bus/acpi/devices/INT3403:01/status 	 15
+/sys/bus/acpi/devices/INT3403:02/status 	 15
+/sys/bus/acpi/devices/INT3403:03/status 	 15
+/sys/bus/acpi/devices/INT3403:04/status 	 15
+/sys/bus/acpi/devices/INT343B:00/status 	 15
+/sys/bus/acpi/devices/INT343B:01/status 	 15
+/sys/bus/acpi/devices/INT344B:00/status 	 15
+/sys/bus/acpi/devices/PNP0103:00/status 	 15
+/sys/bus/acpi/devices/PNP0C02:02/status 	 15
+/sys/bus/acpi/devices/PNP0C02:03/status 	 15
+/sys/bus/acpi/devices/PNP0C0A:00/status 	 31
+/sys/bus/acpi/devices/PNP0C0F:00/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:01/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:02/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:03/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:04/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:05/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:06/status 	 11
+/sys/bus/acpi/devices/PNP0C0F:07/status 	 11
+/sys/bus/acpi/devices/PNP0C31:00/status 	 15
+/sys/bus/acpi/devices/device:3f/status 	 15
+
+
+!!Kernel Information
+!!------------------
+
+Kernel release:    5.8.0-2-amd64
+Operating System:  GNU/Linux
+Architecture:      x86_64
+Processor:         unknown
+SMP Enabled:       Yes
+
+
+!!ALSA Version
+!!------------
+
+Driver version:     k5.8.0-2-amd64
+Library version:    1.2.3.2
+Utilities version:  1.2.3
+
+
+!!Loaded ALSA modules
+!!-------------------
+
+snd_soc_skl_nau88l25_ssm4567
+
+
+!!Sound Servers on this system
+!!----------------------------
+
+Pulseaudio:
+      Installed - Yes (/usr/bin/pulseaudio)
+      Running - Yes
+
+
+!!Soundcards recognised by ALSA
+!!-----------------------------
+
+ 0 [sklnau8825adi  ]: sklnau8825adi - sklnau8825adi
+                      Google-Chell-1.0
+
+
+!!PCI Soundcards installed in the system
+!!--------------------------------------
+
+00:1f.3 Multimedia audio controller [0401]: Intel Corporation Sunrise Point-LP HD Audio [8086:9d70] (rev 21)
+	DeviceName: Multimedia audio controller
+
+
+!!Modprobe options (Sound related)
+!!--------------------------------
+
+snd_pcsp: index=-2
+snd_usb_audio: index=-2
+snd_atiixp_modem: index=-2
+snd_intel8x0m: index=-2
+snd_via82xx_modem: index=-2
+
+
+!!Loaded sound module options
+!!---------------------------
+
+!!Module: snd_soc_skl_nau88l25_ssm4567
+	* : 
+
+
+!!ALSA Device nodes
+!!-----------------
+
+crw-rw----+ 1 root audio 116,  9 Oct  7 19:48 /dev/snd/controlC0
+crw-rw----+ 1 root audio 116,  2 Oct  9 00:19 /dev/snd/pcmC0D0p
+crw-rw----+ 1 root audio 116,  3 Oct  7 19:48 /dev/snd/pcmC0D1c
+crw-rw----+ 1 root audio 116,  4 Oct  7 19:48 /dev/snd/pcmC0D2c
+crw-rw----+ 1 root audio 116,  5 Oct  7 19:48 /dev/snd/pcmC0D3c
+crw-rw----+ 1 root audio 116,  6 Oct  7 19:48 /dev/snd/pcmC0D4p
+crw-rw----+ 1 root audio 116,  7 Oct  7 19:48 /dev/snd/pcmC0D5p
+crw-rw----+ 1 root audio 116,  8 Oct  7 19:48 /dev/snd/pcmC0D6p
+crw-rw----+ 1 root audio 116,  1 Oct  7 19:48 /dev/snd/seq
+crw-rw----+ 1 root audio 116, 33 Oct  7 19:48 /dev/snd/timer
+
+/dev/snd/by-path:
+total 0
+drwxr-xr-x 2 root root  60 Oct  7 19:48 .
+drwxr-xr-x 3 root root 260 Oct  7 19:48 ..
+lrwxrwxrwx 1 root root  12 Oct  7 19:48 platform-skl_n88l25_s4567 -> ../controlC0
+
+
+!!Aplay/Arecord output
+!!--------------------
+
+APLAY
+
+**** List of PLAYBACK Hardware Devices ****
+card 0: sklnau8825adi [sklnau8825adi], device 0: Audio (*) []
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825adi [sklnau8825adi], device 4: Hdmi1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825adi [sklnau8825adi], device 5: Hdmi2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825adi [sklnau8825adi], device 6: Hdmi3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+ARECORD
+
+**** List of CAPTURE Hardware Devices ****
+card 0: sklnau8825adi [sklnau8825adi], device 1: Audio Record (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825adi [sklnau8825adi], device 2: Wake on Voice (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sklnau8825adi [sklnau8825adi], device 3: dmiccap (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+!!Amixer output
+!!-------------
+
+!!-------Mixer controls for card sklnau8825adi
+
+Card hw:0 'sklnau8825adi'/'Google-Chell-1.0'
+  Mixer name	: ''
+  Components	: ''
+  Controls      : 53
+  Simple ctrls  : 49
+Simple mixer control 'Headphone',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 63
+  Front Left: 63 [100%] [0.00dB]
+  Front Right: 63 [100%] [0.00dB]
+Simple mixer control 'Headphone Bypass',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 15
+  Front Left: 0 [0%] [-99999.99dB]
+  Front Right: 0 [0%] [-99999.99dB]
+Simple mixer control 'Headphone Crosstalk',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 255
+  Front Left: 0 [0%] [-99999.99dB]
+  Front Right: 0 [0%] [-99999.99dB]
+Simple mixer control 'Headphone Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'Frontend PGA',0
+  Capabilities: volume volume-joined
+  Playback channels: Mono
+  Capture channels: Mono
+  Limits: 0 - 37
+  Mono: 0 [0%] [-1.00dB]
+Simple mixer control 'Mic',0
+  Capabilities: volume volume-joined
+  Playback channels: Mono
+  Capture channels: Mono
+  Limits: 0 - 255
+  Mono: 207 [81%] [0.09dB]
+Simple mixer control 'ADC Decimation Rate',0
+  Capabilities: enum
+  Items: '32' '64' '128' '256'
+  Item0: '32'
+Simple mixer control 'BIQ Path Select',0
+  Capabilities: enum
+  Items: 'ADC' 'DAC'
+  Item0: 'ADC'
+Simple mixer control 'DAC Oversampling Rate',0
+  Capabilities: enum
+  Items: '64' '256' '128' '' '32'
+  Item0: '64'
+Simple mixer control 'DACL Mux',0
+  Capabilities: enum
+  Items: 'DACL' 'DACR'
+  Item0: 'DACL'
+Simple mixer control 'DACR Mux',0
+  Capabilities: enum
+  Items: 'DACL' 'DACR'
+  Item0: 'DACR'
+Simple mixer control 'Headset Mic',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'Left Amplifier Boost',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Left DAC High Pass Filter',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Left DAC Low Power Mode',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Left Master',0
+  Capabilities: pvolume pvolume-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 255
+  Mono: Playback 191 [75%] [0.09dB]
+Simple mixer control 'Left Speaker',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Pin5-Port0 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin5-Port1 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin5-Port2 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin6-Port0 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin6-Port1 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin6-Port2 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin7-Port0 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin7-Port1 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Pin7-Port2 Mux',0
+  Capabilities: enum
+  Items: 'NONE' 'cvt 2' 'cvt 3' 'cvt 4'
+  Item0: 'NONE'
+Simple mixer control 'Right Amplifier Boost',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Right DAC High Pass Filter',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Right DAC Low Power Mode',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Right Master',0
+  Capabilities: pvolume pvolume-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 255
+  Mono: Playback 191 [75%] [0.09dB]
+Simple mixer control 'Right Speaker',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'codec0_out mo codec0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec0_out mo dmic01_hifi_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec0_out mo media0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'codec1_out mo codec0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec1_out mo dmic01_hifi_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'codec1_out mo media0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif5-0 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif5-1 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif5-2 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif6-0 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif6-1 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif6-2 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif7-0 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif7-1 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'hif7-2 Jack',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'media0_out mo codec0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'media0_out mo dmic01_hifi_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'media0_out mo media0_in mi',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+
+
+!!Alsactl output
+!!--------------
+
+--startcollapse--
+state.sklnau8825adi {
+	control.1 {
+		iface MIXER
+		name 'Left Master Playback Volume'
+		value 191
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 2400
+			dbvalue.0 9
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Left DAC Low Power Mode Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Left DAC High Pass Filter Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'Right Master Playback Volume'
+		value 191
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 2400
+			dbvalue.0 9
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Right DAC Low Power Mode Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'Right DAC High Pass Filter Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'Mic Volume'
+		value 207
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 2400
+			dbvalue.0 9
+		}
+	}
+	control.8 {
+		iface MIXER
+		name 'Headphone Bypass Volume'
+		value.0 0
+		value.1 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 15'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 -9999999
+			dbvalue.1 -9999999
+		}
+	}
+	control.9 {
+		iface MIXER
+		name 'Headphone Volume'
+		value.0 63
+		value.1 63
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 63'
+			dbmin -5400
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.10 {
+		iface MIXER
+		name 'Frontend PGA Volume'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 37'
+			dbmin -100
+			dbmax 3600
+			dbvalue.0 -100
+		}
+	}
+	control.11 {
+		iface MIXER
+		name 'Headphone Crosstalk Volume'
+		value.0 0
+		value.1 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 2400
+			dbvalue.0 -9999999
+			dbvalue.1 -9999999
+		}
+	}
+	control.12 {
+		iface MIXER
+		name 'ADC Decimation Rate'
+		value '32'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 '32'
+			item.1 '64'
+			item.2 '128'
+			item.3 '256'
+		}
+	}
+	control.13 {
+		iface MIXER
+		name 'DAC Oversampling Rate'
+		value '64'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 '64'
+			item.1 '256'
+			item.2 '128'
+			item.3 ''
+			item.4 '32'
+		}
+	}
+	control.14 {
+		iface MIXER
+		name 'BIQ Path Select'
+		value ADC
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 ADC
+			item.1 DAC
+		}
+	}
+	control.15 {
+		iface MIXER
+		name 'BIQ Coefficients'
+		value '0000000000000000000000000000000000000000'
+		comment {
+			access 'read write'
+			type BYTES
+			count 20
+		}
+	}
+	control.16 {
+		iface MIXER
+		name 'media0_out mo media0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.17 {
+		iface MIXER
+		name 'media0_out mo codec0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.18 {
+		iface MIXER
+		name 'media0_out mo dmic01_hifi_in mi Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.19 {
+		iface MIXER
+		name 'codec0_out mo media0_in mi Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.20 {
+		iface MIXER
+		name 'codec0_out mo codec0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.21 {
+		iface MIXER
+		name 'codec0_out mo dmic01_hifi_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.22 {
+		iface MIXER
+		name 'codec1_out mo media0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.23 {
+		iface MIXER
+		name 'codec1_out mo codec0_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.24 {
+		iface MIXER
+		name 'codec1_out mo dmic01_hifi_in mi Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.25 {
+		iface MIXER
+		name 'Left Amplifier Boost Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.26 {
+		iface MIXER
+		name 'Right Amplifier Boost Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.27 {
+		iface MIXER
+		name 'DACL Mux'
+		value DACL
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 DACL
+			item.1 DACR
+		}
+	}
+	control.28 {
+		iface MIXER
+		name 'DACR Mux'
+		value DACR
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 DACL
+			item.1 DACR
+		}
+	}
+	control.29 {
+		iface MIXER
+		name 'Pin5-Port0 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.30 {
+		iface MIXER
+		name 'Pin5-Port1 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.31 {
+		iface MIXER
+		name 'Pin5-Port2 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.32 {
+		iface MIXER
+		name 'Pin6-Port0 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.33 {
+		iface MIXER
+		name 'Pin6-Port1 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.34 {
+		iface MIXER
+		name 'Pin6-Port2 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.35 {
+		iface MIXER
+		name 'Pin7-Port0 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.36 {
+		iface MIXER
+		name 'Pin7-Port1 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.37 {
+		iface MIXER
+		name 'Pin7-Port2 Mux'
+		value NONE
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 NONE
+			item.1 'cvt 2'
+			item.2 'cvt 3'
+			item.3 'cvt 4'
+		}
+	}
+	control.38 {
+		iface MIXER
+		name 'Headphone Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.39 {
+		iface MIXER
+		name 'Headset Mic Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.40 {
+		iface MIXER
+		name 'Left Speaker Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.41 {
+		iface MIXER
+		name 'Right Speaker Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.42 {
+		iface PCM
+		device 4
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.43 {
+		iface PCM
+		device 5
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.44 {
+		iface PCM
+		device 6
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.45 {
+		iface MIXER
+		name 'hif5-0 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.46 {
+		iface MIXER
+		name 'hif5-1 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.47 {
+		iface MIXER
+		name 'hif5-2 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.48 {
+		iface MIXER
+		name 'hif6-0 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.49 {
+		iface MIXER
+		name 'hif6-1 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.50 {
+		iface MIXER
+		name 'hif6-2 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.51 {
+		iface MIXER
+		name 'hif7-0 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.52 {
+		iface MIXER
+		name 'hif7-1 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.53 {
+		iface MIXER
+		name 'hif7-2 Jack Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}
+--endcollapse--
+
+
+!!All Loaded Modules
+!!------------------
+
+ac
+acpi_thermal_rel
+aesni_intel
+af_alg
+algif_hash
+algif_skcipher
+ansi_cprng
+async_memcpy
+async_pq
+async_raid6_recov
+async_tx
+async_xor
+autofs4
+battery
+binfmt_misc
+bluetooth
+bnep
+btbcm
+btintel
+btrfs
+btrtl
+btusb
+button
+ccm
+cdrom
+cec
+cfg80211
+cmac
+coretemp
+cpufreq_powersave
+cqhci
+crc16
+crc32_pclmul
+crc32c_intel
+crc_t10dif
+crct10dif_common
+crct10dif_generic
+crct10dif_pclmul
+cros_kbd_led_backlight
+cryptd
+crypto_simd
+ctr
+dm_crypt
+dm_mod
+drbg
+drm
+drm_kms_helper
+ecc
+ecdh_generic
+ecryptfs
+efi_pstore
+efivarfs
+efivars
+elan_i2c
+evdev
+fat
+fuse
+ghash_clmulni_intel
+glue_helper
+i2c_algo_bit
+i2c_i801
+i2c_smbus
+i915
+iTCO_vendor_support
+iTCO_wdt
+idma64
+inet_diag
+int3400_thermal
+int3403_thermal
+int340x_thermal_zone
+intel_cstate
+intel_lpss
+intel_lpss_pci
+intel_pch_thermal
+intel_pmc_bxt
+intel_powerclamp
+intel_rapl_common
+intel_rapl_msr
+intel_soc_dts_iosf
+intel_uncore
+intel_xhci_usb_role_switch
+ip_tables
+irqbypass
+isofs
+iwlmvm
+iwlwifi
+jitterentropy_rng
+joydev
+kvm
+kvm_intel
+libaes
+libarc4
+libcrc32c
+linear
+loop
+mac80211
+mc
+md_mod
+mmc_block
+mmc_core
+multipath
+nf_tables
+nfnetlink
+nls_ascii
+nls_cp437
+nls_utf8
+processor_thermal_device
+raid0
+raid1
+raid10
+raid456
+raid6_pq
+rapl
+rfcomm
+rfkill
+rng_core
+roles
+scsi_mod
+sd_mod
+sdhci
+sdhci_pci
+serio_raw
+sg
+snd
+snd_compress
+snd_hda_codec
+snd_hda_core
+snd_hda_ext_core
+snd_hrtimer
+snd_hwdep
+snd_intel_dspcfg
+snd_pcm
+snd_seq
+snd_seq_device
+snd_seq_dummy
+snd_soc_acpi
+snd_soc_acpi_intel_match
+snd_soc_core
+snd_soc_dmic
+snd_soc_hdac_hda
+snd_soc_hdac_hdmi
+snd_soc_nau8825
+snd_soc_skl
+snd_soc_skl_nau88l25_ssm4567
+snd_soc_skl_ssp_clk
+snd_soc_ssm4567
+snd_soc_sst_dsp
+snd_soc_sst_ipc
+snd_timer
+soundcore
+squashfs
+t10_pi
+tcp_diag
+tpm
+tpm_tis
+tpm_tis_core
+uas
+udp_diag
+uinput
+usb_common
+usb_storage
+usbcore
+uvcvideo
+vfat
+video
+videobuf2_common
+videobuf2_memops
+videobuf2_v4l2
+videobuf2_vmalloc
+videodev
+watchdog
+x86_pkg_temp_thermal
+x_tables
+xhci_hcd
+xhci_pci
+xor
+z3fold
+zstd
+zstd_compress
+zstd_decompress
+
+
+!!ALSA/HDA dmesg
+!!--------------
+
+[    7.211780] iwlwifi 0000:01:00.0: Found debug configuration: 0
+[    7.212075] snd_soc_skl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040100
+[    7.212110] iwlwifi 0000:01:00.0: loaded firmware version 29.163394017.0 7265D-29.ucode op_mode iwlmvm
+--
+[    7.212131] firmware_class: See https://wiki.debian.org/Firmware for information about missing firmware
+[    7.244441] snd_soc_skl 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    7.278363] intel_rapl_common: Found RAPL domain package
+--
+[    7.278366] intel_rapl_common: Found RAPL domain dram
+[    7.391373] HDMI HDA Codec ehdaudio0D2: Max dais supported: 3
+[    7.692822] snd_soc_skl 0000:00:1f.3: firmware: direct-loading firmware 9d70-COREv4-COREBOOT-0-tplg.bin
+[    7.699536] snd_soc_skl 0000:00:1f.3: ASoC: Parent card not yet available, widget card binding deferred
+[    7.750956] snd_soc_skl 0000:00:1f.3: firmware: direct-loading firmware intel/dsp_fw_release.bin
+[    7.775503] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[    7.783341] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[    7.793090] iwlwifi 0000:01:00.0: Detected Intel(R) Dual Band Wireless AC 7265, REV=0x210
+[    7.799747] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[    7.807019] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> System Pin mapping ok
+[    7.812657] iwlwifi 0000:01:00.0: Applying debug destination EXTERNAL_DRAM
+[    7.812804] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> System Pin mapping ok
+[    7.819091] iwlwifi 0000:01:00.0: Allocated 0x00400000 bytes for firmware monitor.
+[    7.823448] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> Reference Pin mapping ok
+[    7.832693] iwlwifi 0000:01:00.0: base HW address: a0:af:bd:cf:a6:07
+[    7.838655] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> DMIC Pin mapping ok
+[    7.844465] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> HDMI1 Pin mapping ok
+[    7.850495] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> HDMI2 Pin mapping ok
+[    7.854575] skl_n88l25_s4567 skl_n88l25_s4567: snd-soc-dummy-dai <-> HDMI3 Pin mapping ok
+[    7.858528] skl_n88l25_s4567 skl_n88l25_s4567: multicodec <-> SSP0 Pin mapping ok
+--
+[    7.880297] skl_n88l25_s4567 skl_n88l25_s4567: ASoC: Failed to add route iDisp3_out -> direct -> iDisp3 Tx
+[    7.881998] skl_n88l25_s4567 skl_n88l25_s4567: snd_soc_bind_card: disable_route_checks set, ignoring errors on add_routes
+[    7.884807] input: sklnau8825adi Headset Jack as /devices/platform/skl_n88l25_s4567/sound/card0/input6
+[    7.886739] input: sklnau8825adi HDMI/DP, pcm=4 Jack as /devices/platform/skl_n88l25_s4567/sound/card0/input7
+[    7.889519] input: sklnau8825adi HDMI/DP, pcm=5 Jack as /devices/platform/skl_n88l25_s4567/sound/card0/input8
+[    7.891625] input: sklnau8825adi HDMI/DP, pcm=6 Jack as /devices/platform/skl_n88l25_s4567/sound/card0/input9
+[    7.894839] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+--
+[   11.631106] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[   12.307770] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.307867] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.309773] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.309861] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.309950] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.377823] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.377920] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.379765] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.379858] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.379949] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.384828] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.453181] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.453275] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.455196] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.455288] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.455378] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.823715] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.823821] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.827711] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.827813] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.827920] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.832754] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.832857] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.897921] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.898027] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.900954] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.901085] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.901197] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.905926] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.906039] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.977218] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.977327] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.980388] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.980884] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.981208] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.985227] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   12.990217] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.058088] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.058202] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.073116] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.073230] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.076099] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.076198] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.076302] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.082109] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.082215] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.087112] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.092118] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.094095] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.094192] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.097113] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.097222] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   13.233082] Bluetooth: RFCOMM TTY layer initialized
+--
+[   23.977478] BTRFS info (device dm-0): has skinny extents
+[   24.440753] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.440853] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.443771] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.443860] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.443947] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.512707] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.512801] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.515686] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.515779] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.515867] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.583953] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.584060] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.586908] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.587011] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.587097] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.693185] rfkill: input handler enabled
+[   24.876717] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.876814] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.879727] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.879814] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.879904] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.947829] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.947923] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.950806] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.950904] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   24.951002] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.020937] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.021052] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.022945] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.023038] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.023926] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.024016] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.092803] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.092896] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.213921] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.214019] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.215818] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.215908] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.215997] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.220824] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.220919] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.221823] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   25.221909] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   26.116714] fuse: init (API version 7.31)
+--
+[   28.096220] rfkill: input handler disabled
+[   80.586529] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   80.586625] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   80.587537] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[   80.587635] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[  174.991933] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[  174.992055] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[  174.993942] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[  174.994054] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1526.752000] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1526.752111] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1526.752949] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1526.753062] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1958.358260] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1958.358376] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1958.362273] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 1958.362438] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2395.292175] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2395.292291] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2395.293161] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2395.293302] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2413.320205] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2413.320315] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2413.321198] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2413.321312] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2440.943004] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2440.943162] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2440.945911] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2440.946019] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2679.774122] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2679.774240] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2679.776194] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2679.776333] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2689.048175] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2689.048279] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2689.049156] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2689.049258] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2722.470503] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2722.470619] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2722.472504] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2722.472649] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2770.301667] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2770.301794] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2770.302655] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2770.302760] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2810.010320] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2810.010437] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2810.012295] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2810.012407] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2826.396442] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2826.396559] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2826.397516] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2826.397631] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2845.055621] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2845.055744] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2845.057628] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2845.057750] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2901.991113] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2901.991267] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2901.992173] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2901.992286] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2954.203132] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2954.203259] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2954.205144] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2954.205263] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2975.105255] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2975.105413] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2975.106162] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 2975.106267] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3237.630156] i915 0000:00:02.0: [drm] *ERROR* CPU pipe A FIFO underrun
+[ 3320.205364] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3320.205460] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3320.206366] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3320.206455] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3637.862020] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3637.862138] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3637.863951] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3637.864063] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3670.388884] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3670.389002] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3670.389897] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3670.390014] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3918.609810] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3918.609920] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3918.610954] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3918.611086] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3928.241076] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3928.241198] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3928.242176] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 3928.242316] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4027.985516] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4027.985652] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4027.987433] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4027.987554] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4058.118300] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4058.118410] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4058.119303] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4058.119419] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4088.505403] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4088.505517] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4088.506428] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4088.506552] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4098.737956] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4098.738073] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4098.738963] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4098.739082] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4235.976111] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4235.976271] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4235.978112] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4235.978240] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4290.358668] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4290.358780] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4290.361687] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4290.361803] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4308.824347] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4308.824472] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4308.825368] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4308.825489] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4639.484002] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4639.484134] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4639.485994] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4639.486117] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4940.407276] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4940.407395] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4940.408325] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4940.408438] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4967.874164] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4967.874282] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4967.875170] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 4967.875300] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5021.327546] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5021.327709] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5021.329557] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5021.329670] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5033.003864] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5033.003992] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5033.004923] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5033.005044] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5033.005886] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5033.005997] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5109.801044] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5109.801163] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5109.803057] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5109.803170] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5182.635010] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5182.635125] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5182.636017] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5182.636124] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5193.107783] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5193.107877] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5193.108771] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5193.108860] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5262.572067] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5262.572185] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5262.573045] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5262.573160] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5529.224325] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5529.224421] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5529.224509] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5529.224598] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5563.009465] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5563.009580] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5563.013492] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5563.013613] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5614.648459] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5614.648561] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5614.649468] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5614.649566] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5675.245527] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5675.245646] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5675.247553] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5675.247662] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5684.674513] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5684.674640] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5684.676509] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5684.676635] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5703.310399] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5703.310537] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5703.311369] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5703.311470] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5844.018149] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5844.018260] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5844.020139] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5844.020279] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5894.830601] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5894.830730] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5894.831562] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5894.831680] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5952.361612] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5952.361735] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5952.362573] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5952.362688] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5984.119134] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5984.119256] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5984.121056] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 5984.121183] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6072.808153] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6072.808260] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6072.810147] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6072.810263] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6101.015918] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6101.016041] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6101.016846] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6101.016965] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6125.832397] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6125.832520] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6125.834346] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6125.834467] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6162.308320] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6162.308438] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6162.309320] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6162.309434] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6184.218843] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6184.218971] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6184.220807] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6184.220954] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6202.021540] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6202.021635] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6202.021723] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6202.021811] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6293.536172] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6293.536294] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6293.539269] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6293.539374] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6327.872933] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6327.873060] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6327.876952] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6327.877075] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6380.626348] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6380.626472] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6380.627356] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6380.627460] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6413.279225] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6413.279348] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6413.280277] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6413.280409] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6426.918869] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6426.918983] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6426.919936] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6426.920079] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6441.663647] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6441.663767] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6441.664631] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6441.664744] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6460.807987] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6460.808143] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6460.810016] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6460.810133] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6478.920853] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6478.920971] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6478.921891] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6478.922025] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6506.357053] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6506.357176] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6506.358043] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6506.358176] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6520.383830] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6520.383948] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6520.384845] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6520.384970] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6540.147369] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6540.147467] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6540.149380] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6540.149476] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6556.660449] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6556.660568] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6556.661484] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 6556.661626] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7049.162082] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7049.162178] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7049.162268] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7049.162372] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7074.985092] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7074.985221] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7074.987083] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7074.987201] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7087.802338] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7087.802472] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7087.803306] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7087.803428] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7135.343631] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7135.343753] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7135.344566] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7135.344715] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7153.774945] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7153.775056] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7153.775997] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7153.776122] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7170.022415] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7170.022537] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7170.024415] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7170.024540] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7194.517311] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7194.517429] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7194.518325] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7194.518475] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7416.127112] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7416.127209] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7416.127315] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7416.127403] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7436.178280] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7436.178445] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7436.180223] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7436.180343] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7448.107148] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7448.107279] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7448.109182] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7448.109321] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7604.740875] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7604.741006] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7604.741881] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 7604.741992] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[ 8557.119130] wlp1s0: deauthenticating from 06:80:63:cd:10:ef by local choice (Reason: 3=DEAUTH_LEAVING)
+--
+[ 8558.469438] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[ 8558.537050] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[ 8558.537054] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[ 8558.537056] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[ 8558.661109] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+--
+[ 9607.102528] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[ 9607.151805] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[ 9607.151808] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[ 9607.151811] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[ 9607.299862] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+--
+[ 9614.814429] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[10779.079958] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10779.080053] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10779.080144] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10779.080233] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10854.043592] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10854.043704] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10854.044604] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10854.044693] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10953.516920] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10953.517023] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10953.517931] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[10953.518025] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12569.733702] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12569.733799] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12569.734681] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12569.734780] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12900.345852] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12900.345956] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12900.346886] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[12900.346985] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14029.002330] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14029.002432] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14029.003325] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14029.003427] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14050.915560] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14050.915658] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14050.916569] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14050.916661] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14067.462736] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14067.462850] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14067.463707] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[14067.463797] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[15810.582668] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[15810.582767] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[15810.584682] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[15810.584779] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[17122.518454] wlp1s0: deauthenticating from 06:80:63:cd:10:ef by local choice (Reason: 3=DEAUTH_LEAVING)
+--
+[17123.912789] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[17124.040502] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[17124.040507] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[17124.040509] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[17124.112541] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+--
+[17130.936267] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[17180.338719] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[17180.338818] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[17180.338906] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[17180.338992] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[17180.604488] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[18557.890881] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[18557.890933] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[18557.891885] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[18557.891970] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[20257.361602] perf: interrupt took too long (2512 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[21380.296666] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[21380.296767] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[21380.296801] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[21380.296834] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22640.582167] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22640.582211] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22640.583177] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22640.583263] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22906.117749] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22906.117786] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22906.118758] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22906.118841] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22978.769184] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22978.769226] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22978.770187] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[22978.770268] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23362.391294] perf: interrupt took too long (3141 > 3140), lowering kernel.perf_event_max_sample_rate to 63500
+[23762.033842] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23762.033885] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23762.034875] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23762.034931] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23771.726911] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23771.726946] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23771.727912] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23771.727993] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23837.416328] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23837.416379] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23837.417338] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[23837.417393] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[24020.878387] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[24020.878486] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[24020.878536] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[24020.878578] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[26183.445896] wlp1s0: deauthenticating from 06:80:63:cd:10:ef by local choice (Reason: 3=DEAUTH_LEAVING)
+--
+[26185.010157] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[26185.133243] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[26185.133245] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[26185.133246] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[26185.203738] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+--
+[26192.832240] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[26204.355662] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[26204.355771] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[26204.355815] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[26204.355850] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[26620.884943] perf: interrupt took too long (3971 > 3926), lowering kernel.perf_event_max_sample_rate to 50250
+[27445.884156] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27445.884194] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27445.884223] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27445.884258] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27446.534758] BTRFS warning (device dm-0): excessive commit interval 600
+--
+[27450.513021] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[27450.602553] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[27450.602554] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[27450.602555] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[27450.609527] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27450.609592] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27450.702661] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+--
+[27450.899637] Restarting tasks ... 
+[27450.911538] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27450.911793] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27450.917936] done.
+--
+[27458.015675] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[27520.510903] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27520.510997] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27520.511905] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27520.511994] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[27536.001074] kauditd_printk_skb: 18 callbacks suppressed
+[27536.001075] audit: type=1400 audit(1602200181.631:30): apparmor="DENIED" operation="open" profile="/usr/bin/evince" name="/var/lib/snapd/desktop/applications/mimeinfo.cache" pid=206963 comm="evince" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[29087.806742] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[29087.806847] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[29087.807742] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[29087.807839] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[31276.230889] wlp1s0: deauthenticating from 06:80:63:cd:10:ef by local choice (Reason: 3=DEAUTH_LEAVING)
+--
+[31279.129136] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[31279.202682] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 5:0
+[31279.202684] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 6:0
+[31279.202685] HDMI HDA Codec ehdaudio0D2: hdac_hdmi_present_sense: disconnect for pin:port 7:0
+[31279.318795] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+--
+[31284.461937] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[40396.020377] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40396.020471] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40396.021385] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40396.021485] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40407.372392] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40407.372538] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40407.373378] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40407.373471] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40467.765802] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40467.765899] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40467.766795] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40467.766889] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40479.190337] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40479.190431] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40479.191292] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40479.191386] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40503.354869] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40503.354962] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40503.355836] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[40503.355926] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42433.749832] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42433.749939] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42433.750839] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42433.750936] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42443.392720] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42443.392821] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42443.393678] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[42443.393768] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43158.653751] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43158.653845] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43158.654758] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43158.654851] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43181.862024] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43181.862123] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43181.862987] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43181.863080] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[43182.097993] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+--
+[43185.828919] BTRFS info (device dm-0): disk space caching is enabled
+[44079.757266] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44079.757299] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44079.758275] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44079.758357] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44129.686563] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44129.686662] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44129.686695] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44129.686729] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44143.365642] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44143.365743] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44143.365777] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44143.365809] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44289.979538] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44289.979579] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44289.980525] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44289.980606] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44303.227594] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44303.227695] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44303.227729] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44303.227762] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44338.796807] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44338.796848] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44338.797814] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44338.797899] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44418.627283] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44418.627323] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44418.628292] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44418.628374] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44496.553742] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44496.553846] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44496.553881] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+[44496.553915] snd_soc_skl 0000:00:1f.3: MCPS Budget Violation: 9b050000
+
+
+!!Packages installed
+!!--------------------
+
+ii  alsa-topology-conf                    1.2.3-1                         all          ALSA topology configuration files
+ii  alsa-ucm-conf                         1.2.3-1                         all          ALSA Use Case Manager configuration files
+ii  alsa-utils                            1.2.3-1                         amd64        Utilities for configuring and using ALSA
+
